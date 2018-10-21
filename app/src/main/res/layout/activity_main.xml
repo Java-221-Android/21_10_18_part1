@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First action"
+        android:id="@+id/first_action_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Action"
+        android:layout_below="@id/first_action_btn"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/second_action_btn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WEB"
+        android:layout_below="@id/second_action_btn"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/start_web_btn"/>
+
+</RelativeLayout>
